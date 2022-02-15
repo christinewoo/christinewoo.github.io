@@ -33,4 +33,5 @@ nav{
     padding: 10px 50px;
     background-color: #f4f7ff;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+    z-index: 1; /* the z-order of a positioned element and flex items*/
 }
