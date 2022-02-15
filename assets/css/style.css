@@ -19,7 +19,7 @@ a {
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-transform: uppercase;
     font-weight: 600;
