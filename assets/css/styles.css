@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+body{
+  margin: 0px;
+  padding: 0px;  
+  background-color: #336699;
+/*     #dee9ed; */
+/*     #dbe7eb; */
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+#main{
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #dee9ed;
+  position: relative;
+  /* background-image: url("../../images/me.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right; */
+}
+.name img {
+  float: right;    
+  margin: 0 0 0 100px;
+  position: relative;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5%;
+  clear: both;
+  /* object-position:50% 50%; */
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 575;
+  letter-spacing: 2.3px;
+  font-family: Noto Sans, sans-serif;
+  position: fixed;
+  top: 10;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 15px 50px;
+  background-color: #eff4f6;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.05);
+  z-index: 1;
+}
+.menu{
+  display: flex;
+}
+.logo{
+  font-size: 25px;
+  font-weight: bold;
+  color: #7ba8b7;
+}
+.menu li a{
+  padding: 10px 15px;
+  color: #518394;
+  font-size: 13px;
+}
+.lang{
+  color: #7ba8b7;
+  font-size: 13px;
+}
+.menu li a:hover,
+.active{
+  background-color: #9cbec9;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  transition: all ease 0.25s;
+}
+.name{
+  font-family: Calibri,sans-serif;
+  width: 70%;
+  position: absolute;
+  left: 20%;
+  top: 50%;
+  transform: translate(-10%, -50%); 
+  line-height: 4em;
+  clear: both;
+}
+.name .greeting{
+  letter-spacing: 2.3px;
+  color: #6c707c;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: justify;
+  line-height: 2em;
+}
+.name p:nth-child(1),
+.name .details{
+  color: #6c707c;
+  font-size: 16px;
+  text-align: justify;
+  line-height:1.5em;
+}
+.name h1{
+  color: #2d4852;
+  font-family: Noto Sans, sans-serif;
+  font-size: 40px;
+  font-weight: 550;
+  margin: 0px;
+  letter-spacing: 4px;
+}
+.cv-btn{
+  width: 170px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffb833;
+  color: #FFFFFF;
+  font-family: Noto Sans, sans-serif;
+}
+.cv-btn:hover{
+  background-color: #fac96c;
+  transition: all ease 0.45s;
+  color: #FFFFFF;
+}
