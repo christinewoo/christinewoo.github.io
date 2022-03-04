@@ -1,2 +1,4 @@
 shortcut icon reference:
     <!--a href="https://www.flaticon.com/free-icons/origami" title="origami icons">Origami icons created by Freepik - Flaticon</a>-->
+FontAwesome Link in head section:
+    Obtained from https://www.goingtointernet.com/2020/07/make-personal-website.html

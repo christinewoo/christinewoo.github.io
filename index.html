@@ -1,48 +1,123 @@
 <!DOCTYPE HTML>
 <html>
 
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Bootstrap CSS ----->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Tab title --------->
-    <title>Christine Wu</title>
-    <!-- title icon -------->
-    <link rel="shortcur icon" href="images/whale_icon.png" />
-    <!-- link-css-file ----->
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
-  </head>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- bootstrap CSS ------>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<!-- tab title ---------->
+	<title>Christine Wu</title>
+	<!-- title icon --------->
+	<link rel="shortcur icon" href="images/whale_icon.png" />
+	<!-- link-css-file ------>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+	<!-- using FontAwesome -->
+	<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+	<!-- link fonts --------->
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</head>
 
-  <body>
-    <section id="main">
-    <!--navigation----------->
-    <nav>
-    <!--logo----------------->
-    <a href="#" class="logo">WOO</a>
-    <!--menu----------------->
-    <ul class="menu">
-    <li><a href="#" class="active">ABOUT</a></li>
-    <li><a href="#">EDUCATION</a></li>
-    <li><a href="#">RESEARCH</a></li>
-    <li><a href="#">PROJECTS</a></li>
-    <li><a href="#">CONTACT</a></li>
-    </ul>
-    <!--language-------------->
-    <a href="#" class="lang">CH</a>
-    </nav>
-    <!-- name ---------------->
-    <div class="name">
-    <img src="images/me.JPG" alt="" align="right" id="me"/>
-    <!-- Intro ---------------->
-    <p class="greeting">Hello :)</p>
-    <h1>I'm <font color="#518394">Christine Wu</font></h1>
-    <!-- #518394 -->
-    <p class="details"><br><br>I am a Master student in Computer Engineering at UW-Madison. My research interest is to interweave fundamental concepts of Machine Learning with interdisciplinary knowledge, design intelligent algorithms and systems, and develop scalable optimization tools. Through improvements in computation, I wish to apply them in healthcare and medicine to create portable and accessible products that can assist working medical professionals.</p>
-    <!--cv-button-------------->
-    <a href="#" class="cv-btn">Download CV</a>
-    </div>
-    </section>
- </body>
+<body>
+<!--MAIN--------------------->
+	<section id="main">
+	<!--navigation----------->
+	<nav>
+		<!--logo----------------->
+		<a href="#" class="logo">WOO</a>
+		<!--menu----------------->
+		<ul class="menu">
+			<li><a href="#" class="active">ABOUT</a></li>
+			<li><a href="#">EDUCATION</a></li>
+			<li><a href="#">RESEARCH</a></li>
+			<li><a href="#">PROJECTS</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+		<!--language-------------->
+		<a href="#" class="lang">CH</a>
+	</nav>
+	<!--about---------------->
+	<div class="row">
+		<!--name------------------>
+		<div class="column" alt="intro">
+			<div class="name">
+			<p class="greeting">Hello :)</p>
+			<h1>I'm <font color="#2d4852">Christine Wu</font></h1>
+			<p class="details">
+				<br><br>
+				I am a Master student in Computer Engineering at UW-Madison. My research 
+				interest is to interweave fundamental concepts of Machine Learning with 
+				interdisciplinary knowledge, design intelligent algorithms and systems, 
+				and develop scalable optimization tools. Through improvements in computation,
+				I wish to apply them in healthcare and medicine to create portable and 
+				accessible products that can assist working medical professionals.
+			</p>
+			<!--cv-button-------------->
+			<a href="#" class="cv-btn">Download CV</a>
+			</div>
+		</div>
+
+		<!-- Profile Photo ------->
+		<div class="column" alt="avatar">
+			<img src="images/me.JPG" alt=""/>
+		</div>
+	</div>
+	<!--social--------------->
+	<div class="social">
+		<a href="#"><i class="fa fa-envelope"></i></a>
+		<a href="#"><i class="fab fa-github"></i></a>
+		<a href="#"><i class="fab fa-linkedin"></i></a>
+	</div>
+	</section>
+<!--ABOUT------------>
+	<section id="about">
+	<!--text----------------->
+	<div class="about-text">
+		<h1>About Me</h1>
+		<h2>Software Engineer</h2>
+		<p>I am a Master student in Computer Engineering at UW-Madison. My research 
+		interest is to interweave fundamental concepts of Machine Learning with 
+		interdisciplinary knowledge, design intelligent algorithms and systems, 
+		and develop scalable optimization tools. Through improvements in computation,
+		I wish to apply them in healthcare and medicine to create portable and 
+		accessible products that can assist working medical professionals.
+		</p>
+	</div>
+	<!--about-model-img------>
+	<div class="about-avatar">
+	<img src="images/me_linkedin_fin.JPG" alt="avatar"/>
+	</div>
+	</section>
+<!--EDUCATION-->
+	<section id="education">
+	<div class="edu-heading">
+	<h1>EDUCATION</h1>
+	<div class="grad">
+		<span><h4>University of Wisconsin-Madison</h4></span><span id="loc"><i>Madison, WI</i></span>
+		<p>&emsp;
+		<span>M.S. in Electrical and Computer Engineering</span>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		<span id="dates">Sep 2022 - Present</span>
+		<br>&emsp;
+		<!-- <span>Advisor: Prof. Kim Younghyun</span> -->
+		</p>
+	</div>
+	<div class="undergrad">
+		<span><h4>University of Illinois-Urbana-Champaign</h4></span><span id="loc">Champaign, IL</span>
+		<p>&emsp;
+		<span>B.S. in Electrical and Computer Engineering</span>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		<span id="dates">Aug 2017 - May 2021</span>
+		<br>&emsp;
+		<span>Advisor: Prof. Chen Yun-Sheng [YSChen Lab]</span>
+		<!-- <br>&emsp;&emsp;
+		Thesis: “Overcoming optical scattering in photoacoustic imaging
+		<br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+		with intensity-recovering deep learning model” -->
+		</p>
+	</div>
+	
+	</section>
+</body>
 
 </html>
