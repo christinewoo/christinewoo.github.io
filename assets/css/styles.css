@@ -3,10 +3,7 @@
 body{
   margin: 0px;
   padding: 0px;  
-  background-color: #25496d
-  /* #336699; */
-/*     #dee9ed; */
-/*     #dbe7eb; */
+  background-color: #dee9ed;
 }
 ul{
   list-style: none;
@@ -20,10 +17,6 @@ a{
   box-sizing: border-box;
   background-color: #dee9ed;
   position: relative;
-  /* background-image: url("../../images/me.JPG");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right; */
 }
 nav{
   display: flex;
@@ -37,27 +30,28 @@ nav{
   left: 0;
   width: 100%;
   box-sizing: border-box;
-  padding: 15px 50px;
+  padding: 10px 50px 10px 50px;
   background-color: #eff4f6;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.05);
   z-index: 1;
 }
-.menu{
-  display: flex;
-}
 .logo{
+  color: #7ba8b7;
   font-size: 25px;
   font-weight: bold;
-  color: #7ba8b7;
-}
-.menu li a{
-  padding: 10px 20px;
-  color: #518394;
-  font-size: 13px;
 }
 .lang{
   color: #7ba8b7;
   font-size: 13px;
+}
+menu{
+  display: flex;
+  padding: 10px 20px 0px 0px;
+}
+.menu li a{
+  color: #518394;
+  font-size: 13px;
+  padding: 10px 20px;
 }
 .menu li a:hover,
 .active{
@@ -70,15 +64,17 @@ nav{
 .column {
   flex: 50%;
 }
-.row {
+.rows {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .column img {
   position: absolute;
   width: 255px;
   border-radius: 5%;
   left: 65%;
-  top: 27%;
+  top: 33%;
 }
 .name{
   font-family: Montserrat, sans-serif;
@@ -107,10 +103,17 @@ nav{
 .name h1{
   color: #518394;
   font-family: Montserrat, sans-serif;
-  font-size: 40px;
+  font-size: 3rem;
   font-weight: 550;
   margin: 0px;
   letter-spacing: 4px;
+}
+.name h4{
+  font-size: 2rem;
+  color: #7a7f8c;
+  font-weight: 400;
+  padding-top: 10px;
+  font-style: italic;
 }
 .cv-btn{
   width: 170px;
