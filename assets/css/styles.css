@@ -1,5 +1,7 @@
 @charset "utf-8";
-
+* {
+  box-sizing: border-box;
+}
 body{
   margin: 0px;
   padding: 0px;  
@@ -26,8 +28,8 @@ nav{
   letter-spacing: 2.3px;
   font-family: Montserrat, sans-serif;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   width: 100%;
   box-sizing: border-box;
   padding: 10px 50px 10px 50px;
@@ -44,7 +46,7 @@ nav{
   color: #7ba8b7;
   font-size: 13px;
 }
-menu{
+.menu{
   display: flex;
   padding: 10px 20px 0px 0px;
 }
@@ -95,7 +97,7 @@ menu{
 }
 .name p:nth-child(1),
 .name .details{
-  color: #6c707c;
+  color: #5e616c;
   font-size: 16px;
   text-align: justify;
   line-height:1.5em;
@@ -149,6 +151,7 @@ menu{
 }
 
 #about{
+  background-color: #25496d;
   width:100%;
   height: 100vh;
   box-sizing: boarder-box;
