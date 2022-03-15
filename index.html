@@ -24,26 +24,26 @@
 	<!--navigation----------->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light" id="my-nav">
 	<div class="container-fluid" id="nav-bar">
-		<a class="navbar-brand" href="#" id="logo">WOO</a>
+		<a class="navbar-brand" href="#intro" id="logo">WOO</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 			<ul class="navbar-nav me-auto mb-5 mb-lg-0" id="menu">
 				<li class="nav-item" id="menu-item">
-				<a class="nav-link active" id="menu-link" aria-current="page" href="#">ABOUT</a>
+				<a class="nav-link active" id="menu-link" aria-current="page" href="#intro">ABOUT</a>
 				</li>
 				<li class="nav-item" id="menu-item">
-				<a class="nav-link" id="menu-link" href="#">SKILLS</a>
+				<a class="nav-link" id="menu-link" href="#education">EDUCATION</a>
 				</li>
 				<li class="nav-item" id="menu-item">
-				<a class="nav-link" id="menu-link" href="#">EDUCATION</a>
+				<a class="nav-link" id="menu-link" href="#research">RESEARCH</a>
 				</li>
 				<li class="nav-item" id="menu-item">
-				<a class="nav-link" id="menu-link" href="#">RESEARCH</a>
+				<a class="nav-link" id="menu-link" href="#projects">PROJECTS</a>
 				</li>
 				<li class="nav-item" id="menu-item">
-				<a class="nav-link" id="menu-link" href="#">PROJECTS</a>
+					<a class="nav-link" id="menu-link" href="#skills">SKILLS</a>
 				</li>      
 			</ul>
 		</div>
@@ -52,7 +52,7 @@
 	</section>
 
 <!--ABOUT---------------->
-	<section id="about">
+	<section id="intro">
 	<div class="a-box"> <!--r-list-->
 		<div class="a-box-text"> <!--r-box-fig?-->
 			<ul class="a-bull"> <!--r-bull-->
@@ -88,7 +88,7 @@
 	</section>
 
 <!--SKILLS------------>
-	<section id="skills">
+	<section id="about">
 	<h1 class="r-heading"><span>ABOUT ME</span></h1>
 	<div class="e-box">
 		<li class="s-details">
@@ -136,6 +136,7 @@
     </ul>
     </div>
   </section>
+
 <!--RESEARCH-->
 <section id="research">
   <h1 class="r-heading"><span>RESEARCH</span></h1>
@@ -207,53 +208,8 @@
   </div>
 </section>
 
-<!--PROJECTS-->
-	<section id="projects">
-  <!-- <div class="p-heading"> -->
-	<h1 class="r-heading"><span>Projects</span></h1>
-  <p>Here are some personal prjects I have done during my free time</p>
-  <div class="p-b-container">
-  <!--box1-->
-  <div class="p-box">
-  <div class="p-b-img">
-  <div class="p-type">DATABASE</div>
-  <img src="images/DD_App.jpeg">
-  </div>
-  <div class="p-b-text">
-  <a href="#">This is a web application that manages a household. 
-              It can be your home, a shared apartment, or even a workspace.
-              It tracks and suggests groceries. Help calculates money, as 
-              well as the chores done by each member.</a>
-  </div>
-  </div>
-  <!--box2-->
-  <div class="p-box">
-    <div class="p-b-img">
-      <div class="p-type">FPGA & VGA</div>
-      <img src="images/385.png">
-    </div>
-    <div class="p-b-text">
-      <a href="#">This is a mini game is the fusion of the “hammer throw” sport with the
-        Space Invaders game. Like releasing a circular swinging hammer, the player will 
-        hold down the key ‘A’ to spin the pink cube and on release of the key ‘A’ the 
-        ball will fly tangentially towards the targets to eliminate it. The goal of the
-        game is to eliminate targets on the screen through some obstacles to gain points.</a>
-    </div>
-  </div>
-  <!--box3-->
-  <div class="p-box">
-    <div class="p-b-img">
-      <div class="p-type">AI & ML</div>
-      <img src="images/ml.png">
-    </div>
-    <div class="p-b-text">
-      <a href="#">Design and construct an automated workflow to pre-process, train, validate, 
-        and post evaluate medical data, including active snake contour method to remove skin 
-        layer and CW-SSIM to post-evaluate images</a>
-    </div>
-  </div>
-  </div>
-	</section>
+
+	
 <!--CONTACT-->
 	<!-- <section id="contact">
     <div class="c-heading">
@@ -264,7 +220,7 @@
 
 <!--PROGRAMMING-->
 <!-- <script src="script.js"></script> -->
-<section id="prog-lang">
+<section id="skills">
 	<h1 class="r-heading"><span>Programming Languages</span></h1>
 	<div class="e-box"> <!--container-->
 		<ul class="sk-l">
@@ -339,6 +295,18 @@
 	</div>		
 </section>
 
+<script>
+	// Add active class to the current button (highlight it)
+	var header = document.getElementById("menu");
+	var btns = header.getElementsByClassName("menu-link");
+	for (var i = 0; i < btns.length; i++) {
+		btns[i].addEventListener("click", function() {
+		var current = document.getElementsByClassName("active");
+		current[0].className = current[0].className.replace(" active", "");
+		this.className += " active";
+		});
+	}
+	</script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>

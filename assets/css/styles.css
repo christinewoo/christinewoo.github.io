@@ -37,11 +37,11 @@ nav#my-nav{
   align-items: center;
   letter-spacing: 2.4px;
   font-family: Montserrat, sans-serif;
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  padding: 10px 50px;
+  padding: 2.5px 50px;
   background-color: #eff4f6;
   box-shadow: 2px 2px 12px rgba(0,0,0,0.05);
   z-index: 1;
@@ -55,7 +55,7 @@ ul#menu{
 ul#menu li#menu-item a#menu-link{
   color: #518394;
   font-size: 13px;
-  padding: 10px 20px;
+  padding: 7px 20px;
 }
 ul#menu li#menu-item a#menu-link:hover,
 .active{
@@ -64,7 +64,7 @@ ul#menu li#menu-item a#menu-link:hover,
   transition: all ease 0.25s;
 }
 
-#about{
+#intro{
   width: 100%;
   height: auto;
   font-family: Montserrat, sans-serif;
@@ -72,7 +72,8 @@ ul#menu li#menu-item a#menu-link:hover,
   flex-direction:column;
   margin: auto;
   padding: 0;
-  padding-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 .a-box{
   width: 80%;
@@ -303,7 +304,7 @@ ul#menu li#menu-item a#menu-link:hover,
 } */
 
 
-#skills{
+#about{
   width: 100%;
   height: border-box;
   font-family: Montserrat, sans-serif;
@@ -326,16 +327,6 @@ ul#menu li#menu-item a#menu-link:hover,
   padding: 0px 0px 20px 20px;
   list-style:inside;
 }
-/* .sk-t{
-  color:#494b52;
-  font-size: 1rem;
-  margin: auto;
-  padding: 0px 0px 10px 0px; 
-} */
-/* .sk-l{
-  margin: auto;
-  padding: 10px;
-} */
 
 
 
@@ -437,7 +428,7 @@ ul#menu li#menu-item a#menu-link:hover,
   font-weight: 300;
   font-size: 1.5rem;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 55px;
   padding: 0px;
   position: relative;
 }
@@ -722,7 +713,7 @@ ul#menu li#menu-item a#menu-link:hover,
 
 
 /* Programming */
-#prog-lang{
+#skills{
   width: 100%;
   height: border-box;
   font-family: Montserrat, sans-serif;
