@@ -73,47 +73,47 @@ ul#menu li#menu-item a#menu-link:hover,
   display: flex;
   flex-direction:column;
   margin: auto;
-  padding: 0;
-  padding-top: 15px;
-  padding-bottom: 30px;
+  padding: 0px;
 }
-.a-box{
+.i-box{
   width: 80%;
-  max-width: 1000px;
+  max-width: 890px;
   border-radius: 10px;
   display: flex;
   flex-direction:row;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 0px auto;
-  margin-top: 150px;
+  margin: 10px auto;
+  margin-top: 140px;
   padding: 0px;
 }
-.a-box:after {
+.i-box:after {
   content: "";
   display: table;
   clear: left;
 }
-.a-box-fig{
+.i-box-fig{
   order: 1;
   float: right;
   margin-top: 50px;
-  margin: auto 80px;
-  padding: 0px 0px 0px 20px;
+  margin: auto;
+  padding: 0px;
 }
-.a-box-fig img{
+.i-box-fig img{
   width: 200px;
   border-radius: 5px;
 }
-.a-box-text{
+.i-box-text{
   order: 0;
   max-width: 650px;
   margin: 0px;
+  margin-left: 50px;
   line-height: 1.5;
 }
-.a-bull{
+.i-bull{
+  width: 80%;
   margin: 0px;
-  padding: 0px 0px 17px 0px;
+  padding: 0px;
 }
 .greeting{
   color: #2d4852;
@@ -137,14 +137,6 @@ ul#menu li#menu-item a#menu-link:hover,
   font-style: italic;
   padding-bottom: 20px;
 }
-.a-details{
-  color: #5e616c;
-  font-size: 15px;
-  text-align: justify;
-  line-height:1.5em;
-  padding-bottom: 10px;
-  padding-right: 20px;
-}
 .cv-btn{
   width: 170px;
   height: 45px;
@@ -154,6 +146,7 @@ ul#menu li#menu-item a#menu-link:hover,
   background-color: #ffb833;
   color: #FFFFFF;
   font-family: Montserrat, sans-serif;
+  margin-top: 20px;
 }
 .cv-btn:hover{
   background-color: #fac96c;
@@ -215,17 +208,17 @@ ul#menu li#menu-item a#menu-link:hover,
   margin: auto;
   padding: 10px;
 }
-.e-date{
-  float: right;
-  font-size: 12px;
-  /* margin-right: 50px; */
-  margin-top: 5px;
-}
 .e-name{
   color:#494b52;
   font-size: 1rem;
   margin: auto;
   padding: 0px 10px 0px 10px; 
+}
+.e-date{
+  /* color:#5a5f6c; */
+  float: right;
+  font-size: 12px;
+  margin-top: 5px;
 }
 .e-details{
   color:#5a5f6c;
@@ -395,7 +388,7 @@ ul#menu li#menu-item a#menu-link:hover,
 div#pr-box{
   margin: auto;
   width: 80%;
-  max-width: 890px;
+  max-width: 875px;
 }
 .scrolling-wrapper{
 	overflow-x: auto;
@@ -416,7 +409,7 @@ div#pr-box{
 }
 p#p-details{
   color:#162e45;
-  font-size: 1rem;
+  font-size: 16px;
   width: 80%;
   max-width: 890px;
   letter-spacing: 0.2em;
@@ -424,10 +417,6 @@ p#p-details{
   margin: auto;
   padding: 10px 10px 20px 10px;
   position: relative;
-}
-.p-b-img{
-  min-width: 200px;
-  max-width: 100%;
 }
 .p-b-text{
   width: 100%;

@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 /* SOCIAL BOX */
-@media only screen and (max-width: 1101px) {
+@media only screen and (max-width: 1250px) {
   .social{
     width: 35px;
     height: 120px;
@@ -13,131 +13,55 @@
     bottom: 10px;
   }
 }
-
-/* INTRO & ABOUT
-@media only screen and (max-width: 1001px) and (min-width: 875px) {
-  .a-box{
-    border-radius: 10px;
-    display: flex;
-    flex-direction:row;
-    margin: 0px auto;
-    margin-top: 100px;
-    padding: 0px;
-  }
-  .a-box-fig{
-    order: 2;
-    margin: 60px 0px;
-  }
-  .a-box-text{
-    order: 1;
-    max-width: 500px;
-    margin: 0px;
-    padding-right: 10px;
-    line-height: 1.5;
-  }
-  .a-details{
-    padding-right: 10px;
-  }
-} */
-@media only screen and (max-width: 767px) {
-  #about{
-    width: 100%;
-    height: auto;
-    font-family: Montserrat, sans-serif;
-    display:flex;
-    flex-direction:column;
-    margin: auto;
-    padding: 0;
-  }
-  .a-box{
-    border-radius: 10px;
-    display:flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    padding: 0px;
-  }
-  .a-bull{
-    margin: 0px 0px 0px 10px;
-    padding: 0px;
-  }
-  .a-box-fig{
-    order: 2;
-    margin: 0;
-    padding: 10px 0px;
-    padding-top: 20px;
-  }
-  .a-box-text{
-    order: 4;
-    width: 100%;
-    margin: auto;
-    line-height: 1.5;
-  }
-  .greeting{
-    color: #2d4852;
-    font-size: 15px;
-    font-weight: 500;
-    text-align: justify;
-    letter-spacing: 2.3px;
-    margin:0px;    
-  }
-  .name h1{
-    color: #518394;
-    font-size: 2rem;
-    font-weight: 550;
-    letter-spacing: 4px;
-    margin: 0px;
-  }
-  .name h4{
-    color: #7a7f8c;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: italic;
-    padding: 5px 0px 0px 0px;
-    margin: 0px 0px 15px 0px;
-  }
-  .a-details{
-    color: #5e616c;
-    font-size: 15px;
-    text-align: left;
-    line-height:1.5em;
-    padding: 0px;
-  }
-  .cv-btn{
-    width: 170px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffb833;
-    color: #FFFFFF;
-    font-family: Montserrat, sans-serif;
-    margin: 10px 0px;
-  }
+@media only screen and (max-width: 743px) {
   .social{
     width: 130px;
     height: 35px;
     position: fixed;
     display: flex;
     flex-direction:column-reverse;
-    left:0px;
-    bottom: 0px;
+    left: 10px;
+    bottom: 20px;
   }
   .social a{
     margin: 5px 10px;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  #about{
-    width: 100%;
-    height: auto;
-    font-family: Montserrat, sans-serif;
-    display:flex;
-    flex-direction:column;
-    margin: auto;
-    padding: 0;
+
+/* INTRO */
+@media only screen and (min-width: 744px) and (max-width: 1000px) {
+  .i-box{
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px auto;
+    margin-top: 100px;
+    padding: 0px;
   }
-  .a-box{
+  .i-box-text{
+    order: 0;
+    max-width: 380px;
+    margin: 0px;
+    margin-left: 15px;
+    line-height: 1.5;
+  }
+  .i-box-fig{
+    order: 1;
+    float: right;
+    margin-top: 50px;
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 743px) {
+  #intro{
+    margin-top: 80px;
+  }
+  .i-box{
+    width: 90%;
     border-radius: 10px;
     display:flex;
     flex-direction:row;
@@ -145,186 +69,133 @@
     margin: 0 auto;
     padding: 0px;
   }
-  .a-bull{
-    margin: 0px 0px 0px 10px;
-    padding: 0px;
+  .i-bull{
+    margin-left: 10px;
+    margin-right: 10px;
   }
-  .a-box-fig{
+  font#myname{
+    width: 100%;
+  }
+  .i-box-fig{
     order: 2;
     margin: 0;
-    padding: 10px 0px;
-    padding-top: 20px;
+    padding: 0px;
+    margin-bottom: 20px;
   }
-  .a-box-text{
+  .i-box-text{
     order: 4;
     width: 100%;
-    margin: auto;
-    line-height: 1.5;
+    margin: auto 0px;
+    margin-left: 11%;
   }
   .greeting{
-    color: #2d4852;
     font-size: 15px;
-    font-weight: 500;
-    text-align: justify;
-    letter-spacing: 2.3px;
     margin:0px;    
   }
   .name h1{
-    color: #518394;
-    font-size: 2rem;
-    font-weight: 550;
-    letter-spacing: 4px;
-    margin: 0px;
+    font-size: 2.5rem;
   }
   .name h4{
-    color: #7a7f8c;
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: italic;
+    font-size: 1.2rem;
     padding: 5px 0px 0px 0px;
     margin: 0px 0px 15px 0px;
   }
-  .a-details{
-    color: #5e616c;
-    font-size: 15px;
-    text-align: left;
-    line-height:1.5em;
-    padding: 0px;
-  }
   .cv-btn{
-    width: 170px;
-    height: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ffb833;
-    color: #FFFFFF;
-    font-family: Montserrat, sans-serif;
-    margin: 10px 0px;
+    margin-top: 25px;
   }
-  .social{
-    width: 130px;
-    height: 35px;
-    position: fixed;
-    display: flex;
-    flex-direction:column-reverse;
-    left:0px;
-    bottom: 0px;
-  }
-  .social a{
-    margin: 5px 10px;
+}
+
+/* ABOUT */
+@media only screen and (min-width: 500px) and (max-width: 701px) {
+  .s-details{
+    padding: 0px 17px;
   }
 }
 
 /* EDUCATION */
-@media only screen and (max-width: 1087px) and (min-width: 701px) {
-}
-@media only screen and (max-width: 700px) {
-  .e-box {
-    width: 90%;
-  	display: block;
-    list-style-type: none;
-    
-    /* max-width: 950px;
-    border-radius: 10px;
-    margin: auto;
-    padding: 10px; */
-    /* flex-direction: column; */
-  	/* vertical-align: middle; */
-  }
+@media only screen and (min-width: 701px) and (max-width: 1000px) {
   .e-name{
-    /* float: left; */
-    color:#494b52;
-    font-size: 1rem;
-    margin: 0;
-    /* padding-bottom: 10px; */
-    display:block;
-  }
-  .e-name::after{
-    content: "\a";
-    white-space: pre;
-  }
-  .e-date{
-    float: right;
-    font-size: 12px;
-    color:#5a5f6c;
-    clear: both;
-    /* margin-right: 50px; */
+    padding: 0;
   }
   .e-details{
-    /* float: left; */
-    color:#5a5f6c;
-    font-size: 11px;
-    margin-top: 0px;
-    padding: 0px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .e-box{
+    width: 77%;
+  }
+  .e-name{
+    font-size: 18px;
+    float:left;
+    padding: 0;
+  }
+  .e-date{
+    float:left;
+    clear: left;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 7px;
+  }
+  .e-details{
+    float: left;
+    clear: left;
+    margin: 0;
+    padding: 0;
   }
 }
 
-
 /* RESEARCH */
-@media only screen and (max-width: 1087px) and (min-width: 701px) {
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+  .r-list {
+    width: 80%;
+  }
+  .r-tag{
+    padding-left: 10px; 
+  }
+  .r-bull{
+    padding-left: 10px; 
+  }
+  .r-box-fig{
+    padding-left: 10px;
+  }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   .r-box-fig{
     float: center;
     margin: 0;
     padding: 10px;
   }
-  .r-box-fig img{
-    width: 250px;
-    border-radius: 5px;
-  }
   .r-heading{
-    width: 80%;
-    max-width: 950px;
-    letter-spacing: 0.3em;
-    color: #518394;
-    font-size: 1.5rem;
-    font-weight: 300;
-    margin-left: 30px;
+    width: 70%;
+    font-size: 1.3rem;
+    margin: auto;
+    margin-top: 35px;
+  }
+  .r-heading span{
     padding: 0px;
-    position: relative;
   }
   .r-tag{
-    color:#494b52;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
     padding: 0px 0px 0px 10px;
   }
   .r-list {
-    width: 90%;
+    width: 80%;
   	display: flex;
     flex-direction: column;
   	vertical-align: middle;
   }
   .r-bull{
     margin: 0px;
-    padding: 0px 10px 10px 10px;
-  }
-  .r-bull b{
-    color: #253d5d;
-    font-size: 16px;
-    font-weight: bolder;
-    margin-bottom: 20px;
-  }
-  .r-bull i{
-    color: #494b52;
-    font-size: 13px;
-    margin-bottom: 20px;
-  }
-}
-@media only screen and (max-width: 700px){
-  .p-b-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-y: hidden; 
-    overflow-x: auto;
-    white-space: nowrap;
+    padding: 0px 10px;
   }
 }
 
 /* PROJECTS */
-@media only screen and (max-width: 700){
-  
+@media only screen and (max-width: 700px){
+  p#p-details{
+    font-size: 13px;
+    padding: 10px 10px 20px 10px;
+  }
 }
